@@ -289,6 +289,135 @@ body {
     flex-direction: column;
 }
 
+#top-wrapper-container {
+    width: 100%;
+    height: 15%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* background-color: yellow; */
+}
+
+#title-wrapper-container {
+    width: auto;
+    height: 60%;
+    display: flex;
+    flex-direction: row;
+    /* background-color: red; */
+    align-self: center;
+    align-content: center;
+    align-items: center;
+    margin-left: 0px;
+    border-bottom: 1px solid white;
+}
+
+#title-container {
+    font-family: "EuroStar-Black-Extended";
+    color: white;
+    font-size: 4.5vw;
+    /* border-bottom: 1px solid white; */
+    border-bottom: none;
+}
+
+#image-wrapper-container {
+    width: 70%;
+    height: 60%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    /* background-color: green; */
+    align-self: center;
+}
+
+#events-image-container {
+    width: 45%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    border: 1px solid white;
+}
+
+#events-image-container.first {
+    background-image: url(./assets/images/events-imgs/Rifat.JPG);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 30px;
+}
+
+#events-image-container.second {
+    background-image: url(./assets/images/events-imgs/Public-Assistants-mural.JPG);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 30px;
+}
+
+#bottom-wrapper-container {
+    width: 100%;
+    height: 37%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* background-color: yellow; */
+}
+
+#copy-wrapper-container {
+    font-family: "EuroStar-Regular-Extended";
+    color: white;
+    font-size: 3.5vw;
+    width: 96%;
+    margin-left: 0px;
+    height: 25%;
+    display: flex;
+    justify-content: center;
+    /* background-color: red; */
+    margin-top: 25px;
+    text-align: center;
+    align-self: center;
+}
+
+#button-book-wrapper-container {
+    font-family: "EuroStar-Regular-Extended";
+    color: white;
+    font-size: 3.5vw;
+    width: 96%;
+    height: 45%;
+    margin-left: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* background-color: green; */
+    margin-top: 40px;
+    align-content: center;
+    align-items: center;
+    align-self: center;
+}
+
+#marketplace-button-container {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    align-self: center;
+    font-family: EuroStar-Black-Extended;
+    color: white;
+    font-size: 3.5vw;
+    width: auto;
+    height: 40%;
+    border: 1px solid white;
+    padding: 20px 20px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
 
 
 }
